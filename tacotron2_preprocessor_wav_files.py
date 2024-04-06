@@ -2,8 +2,8 @@ import os
 import librosa
 import soundfile as sf
 
-input_path = ""  # Add your path
-output_path = ""  # Add your path
+input_path = "/content/unproccesed"  # Add your path
+output_path = "/content/wavs"  # Add your path
 
 if not os.path.exists(output_path):
     os.makedirs(output_path)
