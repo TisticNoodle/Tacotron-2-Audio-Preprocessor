@@ -2,8 +2,8 @@ import os
 import librosa
 import soundfile as sf
 
-input_path = "/content/unprocessed"  # Add your path
-output_path = "/content/wavs"  # Add your path
+input_path = "/content/Tacotron-2-Audio-Preprocessor/unprocessed"  # Add your path
+output_path = "/content/Tacotron-2-Audio-Preprocessor/wavs"  # Add your path
 
 if not os.path.exists(output_path):
     os.makedirs(output_path)
